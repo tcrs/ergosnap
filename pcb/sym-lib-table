@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name keyswitch)(type Legacy)(uri ${KIPRJMOD}/keyswitch.lib)(options "")(descr ""))
+  (lib (name ergodash-5pin)(type Legacy)(uri ${KIPRJMOD}/ergodash-5pin.lib)(options "")(descr ""))
+)
