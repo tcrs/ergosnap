@@ -1202,4 +1202,27 @@ F 3 "" H 3750 2350 60  0000 C CNN
 	1    3750 2400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5D3D1108
+P 2400 2600
+F 0 "J2" H 2428 2576 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 2428 2485 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 2400 2600 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2600 2050 2600
+Wire Wire Line
+	2200 2700 2050 2700
+Text Label 2050 2600 0    50   ~ 0
+rst
+Text Label 2050 2700 0    50   ~ 0
+GND
+Wire Wire Line
+	2700 3350 3000 3350
+Text Label 3000 3350 0    50   ~ 0
+rst
 $EndSCHEMATC
