@@ -1,5 +1,7 @@
 # ErgoSnap Keyboard
 
+![ErgoSnap](ergosnap.jpg)
+
 WARNING. This is rev1.1, which works fine but has a few issues:
 
  - The silkscreen for the ProMicro outline is incorrect for the USB-up placement
