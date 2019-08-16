@@ -1,5 +1,13 @@
 # ErgoSnap Keyboard
 
+WARNING. This is rev1.1, which works fine but has a few issues:
+
+ - The silkscreen for the ProMicro outline is incorrect for the USB-up placement
+ - USB cable only just plugs into the ProMicro on the left half (plug shroud is
+   against the edge of the PCB below the ProMicro)
+ - SDA & SCL are the wrong way around on the 5pin header for the Pimoroni
+   trackball breakout, so that doesn't work without some jumper wires...
+
 [ErgoDash][1] layout with [Mitosis][2] style PCB construction, reversible ProMicro
 chin from [Ergo42][3].
 
