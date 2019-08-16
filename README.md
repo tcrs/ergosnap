@@ -13,12 +13,15 @@ chin from [Ergo42][3].
 [3]: https://github.com/Biacco42/Ergo42
 [4]: https://shop.pimoroni.com/products/trackball-breakout
 
-## Fails
+## Fabrication
 
-Fabrication at JLCPCB
+I got my PCBS made at [JLCPCB][5]. No issues.
 
- 1. Forgot to upload drill file with gerbers :s
- 2. Less than 3mm between board edge and cutouts
+[5]: https://jlcpcb.com/
+
+## Build
+
+See [build guide](build_guide/).
 
 ## License
 
