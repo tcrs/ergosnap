@@ -26,6 +26,18 @@ Solder a 5 pin header on
 
 ![Five pin header soldered onto board](five_pin.jpg)
 
+On **one half only**, solder on the two i2c pullup resistors behind the
+ProMicro.
+
+### For switches without diode holes (e.g. normal Cherry MX)
+
+Solder diodes onto the *bottom* of the PCB. Make sure the leg from the side of
+the diode with a black stripe goes to the square pad! All the black stripes
+should be towards the "inside" edge of the board (that's the left side for the
+right half and the right for the left half). Use flush cutters to trim the legs
+(sticking out of the top of the board) as flush as possible - make sure that a
+switch can sit flat on top of the soldered legs.
+
 ## Top Board
 
 Snap out all the keyswitch footprints.
@@ -48,6 +60,11 @@ sure everything was lined up.
 
 ![Keyswitches soldered on in the corners](keyswitches_corners.jpg)
 
+Solder the five pin header onto the top board (this passes the power and I2C
+pins through to the TRRS jack).
+
+### For switches with diode holes (e.g. Zealios)
+
 Place the diodes, legs go through the holes in the top of the switches and out
 of the bottom next to the switch pins. Make sure the leg from the side of the
 diode with a black stripe goes to the square pad! All the black stripes should
@@ -57,6 +74,3 @@ are pulled through reasonably tightly so that the diode sits against the switch
 and isn't sticking up.
 
 ![Keyswitches and diodes soldered on](keyswitches_all.jpg)
-
-Solder the five pin header onto the top board (this passed the power and I2C
-pins through to the TRRS jack).

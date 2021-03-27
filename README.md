@@ -32,7 +32,7 @@ I got my PCBS made at [JLCPCB][5]. No issues.
 ## BOM
 
  - 4 x PCBs
- - 68 x Keyswitches (with diode holes - wider than LED holes! I used Zealios)
+ - 68 x Keyswitches (Cherry MX or compatible)
  - 68 x Diodes (1N4148)
  - 2 x ProMicro + header pins 
  - 2 x TRRS jacks (PJ-320A [aliexpress](https://www.aliexpress.com/item/32825553898.html))
@@ -40,8 +40,8 @@ I got my PCBS made at [JLCPCB][5]. No issues.
  - 2 x 4k7 Ohm resistors (I2C pullups)
  - 2 x 5pin headers
  - 4 x M6 nylon screw thread + nuts (for tenting, optional)
- - Some sticky-backed neoprene tape (optional, for padding/non-slip on the bottom
-  of the board
+ - Some sticky-backed neoprene tape (for padding/non-slip on the bottom of the
+   board)
 
 ## Build
 
